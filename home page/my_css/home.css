@@ -1,0 +1,220 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+*
+{
+	font-family: Times
+	/*background-color:#aaa;*/
+}
+
+.ProductBtn    /*css for the button inside the products cards*/
+{
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 10px;
+      font-size: 25px;
+      margin: 4px 2px;
+      border-radius: 24px;
+
+}
+
+.ProductBtn:hover
+{
+	background-color: white;
+	color: darkgreen;
+}
+.ShopBtnExtened  /*make the shop button in center*/
+{
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+
+.ShopBtn    /*for shop button which will exteneded*/
+{
+	  background-color: none;
+	  border: green 2px solid;
+	  color: green;
+	  padding: 13px;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  border-radius: 24px;
+}
+
+.products
+{
+	padding-top: 20px;
+	justify-content: center;
+}
+
+.ourkeys
+{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.Sponser
+{
+	text-align: center;
+}
+
+.DownFooter
+{
+	background-color: #333;	
+	padding: 80px 0px 50px;
+}
+.info
+{
+
+	color: #aaa;
+}
+
+.info h5
+{
+	color: white;
+}
+
+.BrandLogo
+{
+	
+	justify-content: center;
+	padding-left:10%; 
+}
+
+.Links1
+{
+
+	color: #5ec79c;
+}
+.Links1 ul
+{
+	list-style: none;
+	padding-right: none	; 
+	justify-content: left;
+
+}
+
+.Links li
+{	
+
+	justify-content: left;
+	text-align: right;
+}
+
+.Links2
+{
+
+	color: #5ec79c;	
+	padding-top: 30px;
+}
+
+.Links2 ul
+{
+	list-style: none;
+}
+
+
+.links1 h5
+{
+	color: white;
+}
+
+.Footers
+{
+	padding-top: 15px;
+	background-color: #2a2a2a;
+	color: #aaa;
+	justify-content: center; /*for making <p> in center*/
+}
+
+.h5
+{
+	color: white;
+}
+
+.card
+{
+	width: 18rem;
+	text-align: center;
+}
+
+
+.card1
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+
+}
+
+.card2
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+.card3
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+
+}
+
+.gotopbtn
+{
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	background: white;
+	bottom: 20px;
+	right:50px;
+	right:50px;
+	font-size: 22px;
+
+	text-decoration:none; 
+	text-align: center;
+	line-height: 50px;
+	color: black;
+
+}
+
+@media only screen and (max-width: 800px)
+{
+	.BrandLogo
+	{
+		padding: 50px;
+		text-align: center;
+	}
+
+
+
+	.card1
+	{
+		padding-bottom: 50px;
+
+	}
+
+	.card2
+	{
+
+		padding-bottom: 50px;
+	}
+
+	.card3
+	{
+
+		padding-bottom: 50px;
+
+	}	
+
+	.OurKeysImg
+	{
+		width:100%;
+	}
+
+}

@@ -1,0 +1,155 @@
+.header-top {
+    position: relative;
+    background: #222222;
+    color: #ffffff;
+    padding:3px 3px 0px 3px;
+    }
+
+.trans{
+  position:left;
+  color:black;
+    width:20px;
+}
+
+
+.number{
+  position: relative;
+    display: inline-block;
+    line-height: 10px;
+    padding: 5px 30px;
+    background: #000000;
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-left: 400px;
+    padding-top:20px; 
+
+
+}  
+.img{
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}  
+.nav{
+  text-align: right;
+}
+ 
+.sty{
+  border-left:1px solid grey;
+  color:grey;
+  height:50px;
+  padding:10px;
+  display:inline-block;
+
+}
+.pad{
+  padding-left:25px;
+  padding-bottom:0px;
+}
+.dty{
+  border-right:1px solid grey;
+  color:grey;
+  height:50px;
+  padding: 10px;
+}
+.icon{
+  padding-left:100px;
+  color: black;
+}
+.him{
+  color:white;
+  justify-content:right;
+}
+.button {
+  background-color: none;
+  border: none;
+  color: green;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 100%;
+  padding-top: 10px;
+  }
+  .ml-1 {
+  margin-left: ($spacer * .25) !important;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.veg{
+  padding-top: 10px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.header{
+  background-color: #333;
+}
+.product{
+  justify-content: center;
+  padding-top: 10px;
+}
+.farmproduct{
+  width:350px;
+}
+.topnav{
+  text-align: right;
+  padding-top: 10px;
+}
+.responsiveimage{
+  width:220;
+  height:auto;
+}
+
+
+@media only screen and (max-width: 620px)
+{
+  .icon{
+  padding-left: 11px;
+    text-align: center;
+
+}
+.number{
+  text-align:center;
+}
+.img{
+  max-width:100%;
+}
+.him{
+  text-align:center;
+}
+
+.px-2 {
+  padding-right: ($spacer * .5) !important;
+}
+.itembtn{
+  width:100%;
+  padding-top: 10px;
+}
+  
+.topnav{
+  width:100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.farmproduct{
+  width:350px;
+}
+.navigation{
+  padding-right: 400px;
+
+}
+.responsivrimage{
+  height:50%;
+  width:150%;
+}
+
+
