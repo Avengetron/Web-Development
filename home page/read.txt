@@ -1,0 +1,22 @@
+#Read Carefully
+
+#Note:-
+      1.Chnage the path of the Css file according to you.
+      
+      
+#Bootstrap_css
+  -> This file is Bootstrap 4 Css file created by bootstrap.
+  
+#Img
+  ->This file cotains all the required image of the website
+
+
+#my_css
+  ->This file contains all the Css part of the site 
+  ->Change the css path in main html file to make the code run properly. 
+
+
+#site
+  ->This file contains main html file.
+  
+  
